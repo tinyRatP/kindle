@@ -8,7 +8,7 @@ body {
   margin: 0;
 }
 
-body{ font-size:16px;font-family:'PingFangSC-Regular','Hiragino Sans GB','Microsoft Yahei',sans-serif;}
+body{ font-size:16px;font-family: "Noto Serif SC",system-ui,"Helvetica Neue",Helvetica,Tahoma,Arial,"Hiragino Sans GB","NSimSun","仿宋体","SimSun","宋体",serif;}
 .panel-body > p + p{ margin: 20px 0 0; }
 .well p{ margin:10px 0 0; }
 .nav{ margin-bottom:20px; }

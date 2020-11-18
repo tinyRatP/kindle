@@ -13,62 +13,64 @@ outtab = "  ： ？“《》 "     #用于替换特殊字符
 
 HTML_HEAD = '''<!DOCTYPE html>
 <html>
-	<head>
-	<meta charset="utf-8" />
-	<title> Kindle 读书笔记 </title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link href="../style/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-	<link href="../style/css/bootstrap-theme.min.css" rel="stylesheet" type="text/css" />
-	<link href="../style/css/custom.css" rel="stylesheet" type="text/css" />
-	<script type="text/javascript" src="../style/js/jquery-1.12.2.min.js"></script>
-	<script type="text/javascript" src="../style/js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="../style/js/custom.js"></script>
+  <head>
+  <meta charset="utf-8" />
+  <title> Kindle 读书笔记 </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="../style/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+  <link href="../style/css/bootstrap-theme.min.css" rel="stylesheet" type="text/css" />
+  <link href="../style/css/custom.css" rel="stylesheet" type="text/css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC&display=swap" rel="stylesheet">
+  <script type="text/javascript" src="../style/js/jquery-1.12.2.min.js"></script>
+  <script type="text/javascript" src="../style/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="../style/js/custom.js"></script>
 </head>
 <body>
 '''
 
 INDEX_TITLE = '''
-	<div class="container">
-		<header class="header col-md-12">
-			<div class="page-header">
-				<h1><small><span class="glyphicon glyphicon-book" aria-hidden="true"></span> Kindle 读书笔记 </small> <span class="badge">更新于 UPDATE </span> <span class="badge"> 共 BOOKS_SUM 本书，SENTENCE_SUM 条笔记</span></h1>
-			</div>
-		</header>
-	<div class="col-md-12">
+  <div class="container">
+    <header class="header col-md-12">
+      <div class="page-header">
+        <h1><small><span class="glyphicon glyphicon-book" aria-hidden="true"></span> Kindle 读书笔记 </small> <span class="badge">更新于 UPDATE </span> <span class="badge"> 共 BOOKS_SUM 本书，SENTENCE_SUM 条笔记</span></h1>
+      </div>
+    </header>
+  <div class="col-md-12">
         <div class="list-group">
 
 '''
 
 BOOK_TITLE = '''
-	<div class="container">
-		<header class="header col-md-12">
-			<div class="page-header">
-				<h1><small><span class="glyphicon glyphicon-book" aria-hidden="true"></span>BookName</small> <span class="badge"></span></h1>
-			</div>
-		</header>
+  <div class="container">
+    <header class="header col-md-12">
+      <div class="page-header">
+        <h1><small><span class="glyphicon glyphicon-book" aria-hidden="true"></span>BookName</small> <span class="badge"></span></h1>
+      </div>
+    </header>
 
         <div class="col-md-2">
-			<ul class="nav nav-pills nav-stacked">
-				<li role="presentation" class="active text-center">
-					<a href="../index.html"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> 返回目录</a>
-				</li>
-			</ul>
-		</div>
+      <ul class="nav nav-pills nav-stacked">
+        <li role="presentation" class="active text-center">
+          <a href="../index.html"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> 返回目录</a>
+        </li>
+      </ul>
+    </div>
 '''
 
 SENTENCE_CONTENT = '''
-    	<div class="col-md-12">
-			<article>
-				<div class="panel panel-default">
-					<div class="panel-body mk88"><p>SENTENCE_TXT
+      <div class="col-md-12">
+      <article>
+        <div class="panel panel-default">
+          <div class="panel-body mk88"><p>SENTENCE_TXT
                     </p></div>
-					<div class="panel-footer text-right">
-						<span class="label label-primary"><span class="glyphicon glyphicon-tag" aria-hidden="true"></span> 标注</span>
-						<span class="label label-default"><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span>SENTENCE_ADDR</span>
-						<span class="label label-default"><span class="glyphicon glyphicon-time" aria-hidden="true"></span>SENTENCE_TIME</span>
-					</div>
-				</div>
-			</article>
+          <div class="panel-footer text-right">
+            <span class="label label-primary"><span class="glyphicon glyphicon-tag" aria-hidden="true"></span> 标注</span>
+            <span class="label label-default"><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span>SENTENCE_ADDR</span>
+            <span class="label label-default"><span class="glyphicon glyphicon-time" aria-hidden="true"></span>SENTENCE_TIME</span>
+          </div>
+        </div>
+      </article>
         </div>
 '''
 
